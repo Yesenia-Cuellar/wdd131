@@ -34,7 +34,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     padding: 15px 20px;
     font-weight: 500;
@@ -67,7 +67,7 @@ h1 {
 
 /* Cards */
 .card {
-    background-color: white;
+    background-color: #ffffff;
     border: 1px solid #b9d9e9;
     border-radius: 10px;
     padding: 20px;
@@ -76,7 +76,7 @@ h1 {
 
 .card h2 {
     background-color: #164e75;
-    color: white;
+    color: #ffffff;
     text-align: center;
     padding: 12px;
     border-radius: 6px;
@@ -99,7 +99,7 @@ h1 {
 /* Footer */
 footer {
     background-color: #164e75;
-    color: white;
+    color: #ffffff;
     text-align: center;
     padding: 15px;
     margin-top: 30px;
