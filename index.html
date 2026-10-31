@@ -4,12 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131 Practice</title>
+    <meta name="description"
+        content="WDD 131 - Dynamic Web Fundamentals. Personal homepage of Yesenia Cuéllar, featuring information about me, Costa Rica, and my interests.">
+    <meta name="author" content="Yesenia Cuéllar">
+
+    <title>WDD 131 - Dynamic Web Fundamentals - Yesenia Cuéllar</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
-    <h1>Hello, World!</h1>
-    <p>My WDD 131 repository is working.</p>
+
+    <header>
+        <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
+
+        <nav>
+            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+            <a href="https://byupw.instructure.com/" target="_blank">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7"
+                target="_blank">Scripture</a>
+            <a href="#">Final Project</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Yesenia Cuéllar</h1>
+
+        <div class="about-grid">
+
+            <section class="card">
+                <h2>About Me</h2>
+
+                <img src="images/yesenia.webp" alt="Photo of Yesenia Cuéllar">
+
+                <p>
+                    Hello! My name is Yesenia Cuéllar. I am originally from
+                    El Salvador, but I have lived in Costa Rica for 11 years.
+                    I enjoy learning new things and developing my skills in
+                    web development. I am excited to learn HTML, CSS, and
+                    JavaScript in this course.
+                </p>
+            </section>
+
+            <section class="card">
+                <h2>Costa Rica</h2>
+
+                <img src="images/costa-rica.webp" alt="Beautiful landscape of Costa Rica">
+
+                <p>
+                    Costa Rica is a beautiful country in Central America,
+                    known for its natural beauty, beaches, mountains, and
+                    biodiversity. It is a wonderful place to live and
+                    discover new places.
+                </p>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> Yesenia Cuéllar | Costa Rica
+        </p>
+
+        <p id="lastModified"></p>
+    </footer>
+
 </body>
 
 </html>

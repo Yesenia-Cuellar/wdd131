@@ -1,0 +1,126 @@
+/* General styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: #263746;
+    background-color: #f2f8fc;
+}
+
+/* Header */
+header {
+    background-color: #164e75;
+    color: white;
+    text-align: center;
+}
+
+#course-title {
+    display: block;
+    padding: 25px 10px;
+    font-family: "Merriweather", serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #087cae;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    background-color: #b9e5f5;
+    color: #164e75;
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 0 15px;
+}
+
+h1 {
+    text-align: center;
+    color: #164e75;
+    font-family: "Merriweather", serif;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+/* Cards */
+.card {
+    background-color: white;
+    border: 1px solid #b9d9e9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+}
+
+.card h2 {
+    background-color: #164e75;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    border-radius: 6px;
+    font-family: "Merriweather", serif;
+}
+
+.card img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+
+.card p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Footer */
+footer {
+    background-color: #164e75;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 8px;
+}
+
+/* Responsive design */
+@media screen and (max-width: 650px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+}
