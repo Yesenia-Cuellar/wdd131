@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover Costa Rica, its beautiful landscapes, culture, and weather.">
+    <meta name="author" content="Yesenia Cuellar">
+    <title>Costa Rica | WDD 131</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Costa Rica</h1>
+    </header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 600px)" srcset="images/costa-rica-small.webp">
+                <img src="images/costa-rica-large.webp" alt="Beautiful landscape of Costa Rica" width="1200"
+                    height="600">
+            </picture>
+        </div>
+
+        <section class="data">
+            <h2>Data</h2>
+            <p><strong>Area:</strong> 51,100 sq km</p>
+            <p><strong>Population:</strong> Approximately 5.2 million</p>
+            <p><strong>Capital:</strong> San José</p>
+            <p><strong>Language:</strong> Spanish</p>
+            <p><strong>Currency:</strong> Costa Rican colón</p>
+            <p><strong>Time Zone:</strong> UTC-6</p>
+        </section>
+
+        <section class="weather">
+            <h2>Weather</h2>
+            <img class="weather-icon" src="images/weather.svg" alt="Partly cloudy weather icon">
+            <p><strong>Temperature:</strong> 28 °C</p>
+            <p><strong>Conditions:</strong> Partly Cloudy</p>
+            <p><strong>Wind:</strong> 15 km/h</p>
+            <p><strong>Wind Chill:</strong> <span id="windchill">N/A</span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="currentyear"></span> | Costa Rica</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
