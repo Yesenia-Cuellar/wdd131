@@ -1,0 +1,51 @@
+/* General table styling */
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Table caption */
+caption {
+    caption-side: bottom;
+    padding: 8px;
+    font-size: 16px;
+}
+
+/* Table cells */
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+}
+
+/* Main heading */
+thead tr:first-child th {
+    background-color: #000;
+    color: white;
+    font-size: 22px;
+    padding: 18px;
+}
+
+/* Column headings */
+thead tr:nth-child(2) th {
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+}
+
+/* Zebra striping */
+tbody tr:nth-child(even) {
+    background-color: #e8e8e8;
+}
+
+/* First column */
+tbody th {
+    text-align: left;
+}
+
+/* Symbols */
+td {
+    font-size: 20px;
+}
