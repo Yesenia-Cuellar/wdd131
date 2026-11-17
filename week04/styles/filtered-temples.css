@@ -30,18 +30,19 @@ nav {
     gap: 10px;
 }
 
-nav button {
-    background-color: white;
-    color: #164b75;
-    border: none;
+nav a {
+    background-color: #164b75;
+    color: white;
+    text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
 }
 
-nav button:hover {
-    background-color: #cce5f6;
+nav a:hover {
+    background-color: white;
+    color: #164b75;
 }
 
 /* Main content */
@@ -103,7 +104,7 @@ footer {
         font-size: 25px;
     }
 
-    nav button {
+    nav a {
         padding: 10px 14px;
         font-size: 14px;
     }
