@@ -54,24 +54,23 @@ const temples = [
         location: "Salt Lake City, Utah, United States",
         dedicated: "1893, April, 6",
         area: 253015,
-        imageUrl: "images/salt-lake.jpg"
+        imageUrl: "images/salt-lake.webp"
     },
     {
         templeName: "San Diego California",
         location: "San Diego, California, United States",
         dedicated: "1993, April, 25",
         area: 72000,
-        imageUrl: "images/san-diego.jpg"
+        imageUrl: "images/san-diego.webp"
     },
     {
         templeName: "Rome Italy",
         location: "Rome, Italy",
         dedicated: "2019, March, 10",
         area: 41010,
-        imageUrl: "images/rome.jpg"
+        imageUrl: "images/rome.webp"
     }
 ];
-
 // Function to display temple cards
 function displayTemples(templeList) {
     const templeContainer = document.querySelector("#temple-cards");
